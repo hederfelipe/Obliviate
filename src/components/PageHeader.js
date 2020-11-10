@@ -11,7 +11,7 @@ const PageHeader = () => (
     <a href="/" className="header-link">
       <h1 className="header-title">
         Obliviate
-        <span style={{ color: '#004AA0' }}>INFO</span>
+        <span style={{ color: '#004AA0' }}></span>
       </h1>
     </a>
   </header>

@@ -28,15 +28,15 @@ body {
 .header-link {
   color: rgb(241, 241, 243);
   text-decoration: none;
-
+  width: 11rem;
 }
 
 .coin-icon {
-  color: rgb(116, 173, 240);
-  height: 4rem;
+  color: rgb(238, 239, 241);
+  height: 6rem;
   margin-right: 1rem;
   margin-top: 3rem;
-  width: 4rem;
+  width: 6rem;
 }
 
 footer {
