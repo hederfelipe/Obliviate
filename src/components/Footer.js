@@ -7,7 +7,7 @@ const Footer = () => (
     <p className="footer-text">
       Obliviate
     </p>
-    <a href="" target="_blank" rel="noopener noreferrer">
+    <a href="#" target="_blank" rel="noopener noreferrer">
       <img src={githubIcon} sizes="900px" alt="ícone do github" className="footer-git-image" />
     </a>
 
