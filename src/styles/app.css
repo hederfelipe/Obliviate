@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(1, 2, 2);
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+  margin: 0;
+  padding: 1rem 2rem;
+}
+
+.header {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.header-title {
+  font-family: Ubuntu, sans-serif;
+  font-size: 3rem;
+  margin-top: 5rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.header-link {
+  color: rgb(241, 241, 243);
+  text-decoration: none;
+
+}
+
+.coin-icon {
+  color: rgb(116, 173, 240);
+  height: 4rem;
+  margin-right: 1rem;
+  margin-top: 3rem;
+  width: 4rem;
+}
+
+footer {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  
+}
+
+.footer-text {
+  color: rgb(245, 238, 238);
+
+  font-size: 0.8rem;
+  
+}
+
+.footer-git-image , .footer-linkedin-image {
+  margin-left: 0.7rem;
+  width: 1.3rem;
+}

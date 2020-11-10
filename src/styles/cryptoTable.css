@@ -1,0 +1,170 @@
+.rtable {
+  border-spacing: 0;
+  display: inline-block;
+  margin-top: 0;
+  max-width: 100%;
+  overflow-x: auto;
+  vertical-align: top;
+}
+
+th {
+  color: black;
+  white-space: wrap;
+}
+
+td , th {
+  background-color: white;
+  border-bottom: 1px solid #e5e5e5;
+  max-width: 9rem;
+  min-width: 9rem;
+  overflow: hidden;
+  padding: 1rem;
+  text-align: center;
+}
+
+thead th {
+  background-color: rgb(0, 61, 131);
+  color: white;
+}
+
+th button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+th:hover , th:active {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+thead th:first-child {
+  border-radius: 1rem 0 0;
+}
+
+thead th:last-child {
+  border-radius: 0 1rem 0 0;
+}
+
+tbody tr a {
+  color: black;
+  font-weight: 700;
+}
+
+tbody tr a:hover {
+  color: rgb(0, 61, 131);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+table td:first-child {
+  border-right: 1px solid black;
+}
+
+table td:first-child , table th:first-child {
+  left: 0;
+  position: sticky;
+}
+
+.table-buttons {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.table-button {
+  background: none;
+  border: none;
+  color: rgb(0, 61, 131);
+  cursor: pointer;
+  font-size: 1.5rem;
+  height: fit-content;
+  margin: 1rem;
+}
+
+.table-button:disabled {
+  color: rgba(0, 55, 117, 0.452);
+}
+
+.main-table {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+table {
+  border-radius: 1rem 1rem 0 0;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+}
+
+.page-number {
+  font-size: large;
+  margin-top: 1.3rem;
+}
+
+.table-head-row {
+  border-radius: 5rem;
+}
+
+.search-input {
+  background-color: rgb(247, 247, 247);
+  border: none;
+  border-bottom: 2px solid rgb(0, 61, 131);
+  font-size: 1rem;
+  margin-left: 1rem;
+  margin-top: 3rem;
+  width: 20rem;
+}
+
+.table-caption {
+  color: rgb(78, 78, 78);
+  font-size: small;
+  font-style: italic;
+  margin: 1rem 0 0.5rem;
+  width: fit-content;
+}
+
+.tooltip {
+  color: rgb(0, 61, 131);
+  margin-left: 0.5rem;
+  text-decoration: none;
+}
+
+.tooltip:hover , .tooltip:focus , .tooltip:active {
+  position: relative;
+}
+
+.tooltip-top[ data-tooltip ]:hover:after , .tooltip-top[ data-tooltip ]:active:after {
+  background-color: rgb(0, 87, 185);
+  border-radius: 5px;
+  bottom: 100%;
+  content: attr(data-tooltip);
+  color: white;
+  left: 0;
+  padding: 4px 8px;
+  position: absolute;
+  width: 15rem;
+}
+
+.spinner {
+  animation: sk-scaleout 1s infinite ease-in-out;
+  background-color: white;
+  border-radius: 100%;
+  height: 10rem;
+  margin: 4rem auto;
+  width: 10rem;
+}
+
+@keyframes sk-scaleout {
+
+  0% {
+    transform: scale(0);
+  }
+
+  100% {
+    background-color: rgb(0, 61, 131);
+    opacity: 0;
+    transform: scale(1);
+  }
+}

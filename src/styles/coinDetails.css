@@ -1,0 +1,48 @@
+.selector-tradre-history {
+  display: flex;
+  flex-direction: column;
+  color: rgb(245, 238, 238);
+
+}
+
+select {
+  background-color: rgb(247, 247, 247);
+  border: none;
+  border-bottom: 2px solid rgb(0, 61, 131);
+  font-size: 1rem;
+  margin: 1rem 0;
+  width: fit-content;
+}
+
+.button-trade-history {
+  background-color: rgb(0, 61, 131);
+  border: 2px solid rgb(0, 61, 131);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: 700;
+  height: 2rem;
+  width: 5rem;
+}
+
+
+.button-trade-history:hover {
+  background-color: rgb(212, 202, 202);
+  border: 2px solid rgb(0, 61, 131);
+   color: rgb(245, 238, 238);
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: rgb(245, 238, 238);
+
+}
+
+h3,h2{
+  color: rgb(245, 238, 238);
+
+}
