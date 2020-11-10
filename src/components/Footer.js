@@ -1,6 +1,6 @@
 import React from 'react';
 import githubIcon from '../images/icons8-malha-100.png';
-import linkedinIcon from '../images/linkedin-icon.png';
+
 
 const Footer = () => (
   <footer>
